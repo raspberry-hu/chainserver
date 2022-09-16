@@ -1,0 +1,9 @@
+{
+  "RestUrl": "https://rest.baas.alipay.com",
+  "AccessId": "23j5Lu46LLENUIUX",
+  "AccessSecret": "./conf/access.key",
+  "MaxIdleConns": 10,
+  "IdleConnTimeout": 30,
+  "RetryMaxAttempts": 5,
+  "BackOffPeriod": 1000
+}

@@ -1,0 +1,37 @@
+  # 程序配置
+  console:
+    name: ""
+    version: ""
+    port: "0.0.0.0:9204"
+    nodelist: [""]
+  
+  # 链信息
+  chain_type_list:
+    - Ethereum: "https://ropsten.infura.io/v3/78cd95bc39b2489eba552743d3ed0f5b"
+    - BSC: "https://data-seed-prebsc-1-s1.binance.org:8545/"
+    - AVAX: "https://api.avax-test.network/ext/bc/C/rpc"
+  
+  
+  # 日志配置
+  log: "yaml/log.json"
+  
+  # 多协程配置
+  runcnf:
+    open: true
+    number: 10
+  
+  pgsql:
+    pg_user: antdev
+    pghost: 47.94.80.39
+    pg_pwd: ant.com
+    dbport: 5432
+    dbname: antdb
+
+  
+  nft_addr:  
+   '0x4cd42419338de8f806b567abaa318a97cc7d2fe9': 1
+   '0x632b3f7b2c26a3b27677e0bc00196984d3b045fb': 1
+   '0x7901923408968e1c319fe72cc2497de7e7837000': 1
+  
+  topic_list:  
+   - "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"

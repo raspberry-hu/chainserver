@@ -1,0 +1,7 @@
+.idea/
+nohup.out
+/config/config.yaml
+.go.mod.swp
+/cmd/smartphone
+chain_server
+/conf/my.*
